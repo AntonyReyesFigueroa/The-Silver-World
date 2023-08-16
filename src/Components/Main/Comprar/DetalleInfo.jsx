@@ -21,7 +21,7 @@ const DetalleInfo = () => {
     }, [index]);
    
     return (
-        <div>
+        <div className='container__detalleInfo'>
 
             <h1> {producto?.name} </h1>
 
@@ -33,7 +33,10 @@ const DetalleInfo = () => {
                 <div>
 
                 </div>
+            
+           
             </div>
+            <h2>Stock: {producto?.stock} </h2>
 
         </div>
     )

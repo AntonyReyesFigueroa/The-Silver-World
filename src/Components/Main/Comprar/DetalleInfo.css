@@ -2,7 +2,27 @@
 
 
 .img__producto_detalle>img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 270px;
     object-fit: cover;
+}
+
+.container__detalleInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.container__detalleInfo >h1{
+    margin-bottom: 1em;
+    
+}
+
+.container__detalleInfo > h2 {
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 2em;
+    text-align: center;
 }
