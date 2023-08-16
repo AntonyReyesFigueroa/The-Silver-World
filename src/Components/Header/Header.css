@@ -28,7 +28,7 @@
     line-height: 1.42857143;
     font-weight: 600;
     cursor: pointer;
-  
+
 }
 
 a {
@@ -36,7 +36,7 @@ a {
     cursor: pointer;
 }
 
-.header__sticky{
+.header__sticky {
     height: 88vh;
 }
 
@@ -49,4 +49,11 @@ a {
     align-items: center;
     background-color: #f9f9f9;
     z-index: 20;
+}
+
+
+@media only screen and (max-height: 500px) {
+    .header__sticky {
+        height: 0vh !important;
+    }
 }
