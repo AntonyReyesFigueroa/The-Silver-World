@@ -25,7 +25,12 @@ const Header = ({ isOpen, setIsOpen }) => {
                 <li onClick={() => setIsOpen(!isOpen)} className='Header__li' ><Link to='/contacto'>Contacto</Link></li>
               </ul>
               :
-              null
+              <ul className={`displayFlexFila header__container-li`} >
+                <li onClick={() => setIsOpen(!isOpen)} className='Header__li' ><Link to='/'>Inicio</Link></li>
+                <li onClick={() => setIsOpen(!isOpen)} className='Header__li' ><Link to='/filosofia'>Filosofia</Link></li>
+                <li onClick={() => setIsOpen(!isOpen)} className='Header__li' ><Link to='/quiero-comprar'>Quiero comprar</Link></li>
+                <li onClick={() => setIsOpen(!isOpen)} className='Header__li' ><Link to='/contacto'>Contacto</Link></li>
+              </ul>
           }
         </div>
       </nav>
