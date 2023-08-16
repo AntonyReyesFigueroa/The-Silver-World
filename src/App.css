@@ -3,14 +3,16 @@
   /* background: rgb(93, 52, 52); */
   grid-template-rows: 200px 1fr 150px;
   height: 100vh;
+  grid-template-columns: 100vw;
+
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .container__app {
-    grid-template-rows: 200px 1fr 500px !important;
+    grid-template-rows: 100px 1fr 500px;
     height: 100vh;
-    width: 100vw;
+    
   }
 
 }

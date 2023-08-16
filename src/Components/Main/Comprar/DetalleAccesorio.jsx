@@ -23,6 +23,11 @@ const DetalleAccesorio = ({ data, setValueCookie, handleCookie,index }) => {
             handleCookie()
             setValueCookie(index)
         }}
+
+        onMouseDown ={()=> {
+            handleCookie()
+            setValueCookie(index)
+        }}
         >
             <Link to='/info-producto'>
             <section className='section'>
