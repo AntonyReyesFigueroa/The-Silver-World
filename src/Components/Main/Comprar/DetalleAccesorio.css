@@ -1,0 +1,47 @@
+.section>img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__Detallecomprar{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: 232px;
+    height: 330px;
+    background: #7a0f0f;
+    padding: 1em;
+    border-radius: 1em;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(114, 106, 106);
+}
+
+.section > img{
+    margin-bottom: 10px;
+    border-radius: .7em;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.section > img:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.section > p{
+    line-height: 30px;
+}

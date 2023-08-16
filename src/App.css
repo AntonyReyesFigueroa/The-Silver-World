@@ -1,5 +1,17 @@
+.container__app {
+  display: grid;
+  /* background: rgb(93, 52, 52); */
+  grid-template-rows: 200px 1fr 150px;
+  height: 100vh;
+}
 
 
+@media only screen and (max-width: 800px) {
+  .container__app {
+    grid-template-rows: 200px 1fr 90px !important;
+    height: 100vh;
+  }
+}
 
 
 

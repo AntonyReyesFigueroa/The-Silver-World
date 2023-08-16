@@ -1,0 +1,56 @@
+
+.container__comprar{
+    margin-top: 2px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(249, 249, 249);
+    height: 100%;
+    width: 100%;
+}
+
+.accesorios__h{
+    width: 250px;
+    height: 250px;
+    background-image: url('../../../img/accesorioH.png');
+    margin: 1em;
+    border-radius: 1em;
+    background-size: cover;
+    background-position: center;
+}
+
+.accesorios__h:hover{
+    opacity: .5;
+}
+
+.accesorios__m{
+    width: 250px;
+    height: 250px;
+    background-image: url('../../../img/accesorioM.png');
+    margin: 1em;
+    border-radius: 1em;
+    background-size: cover;
+    background-position: center;
+}
+
+.accesorios__m:hover{
+    opacity: .5;
+}
+
+.accesorios__h::before{
+    content: 'Accesorios para hombres';
+    position: relative;
+    top: 110px;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    
+}
+
+.accesorios__m::before{
+    content: 'Accesorios para mujeres';
+    position: relative;
+    top: 110px;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
